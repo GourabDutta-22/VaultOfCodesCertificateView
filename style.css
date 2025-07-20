@@ -2,7 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: fixed;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 
 body {
   font-family: "Poppins", sans-serif;
@@ -531,7 +538,7 @@ button:active {
   .container {
     padding: 30px;
     margin-bottom: 35px;
-    max-width: 90%;
+    max-width: 60%;
   }
 
   .card {
@@ -626,13 +633,17 @@ button:active {
   }
 
   .main-nav ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 8px;
     align-items: center;
   }
 
   .container {
     padding: 25px;
+    max-width: 72%;
+  }
+  .container h2 {
+    font-size: 24px;
   }
 
   .card {
@@ -641,10 +652,17 @@ button:active {
 
   input[type="text"],
   input[type="email"],
-  textarea,
+  textarea{
+    max-width: 100%;
+    padding: 10px;
+  }
   button {
     font-size: 15px;
-    padding: 14px;
+    padding: 10px;
+  }
+
+  .card.student-data {
+    max-width: 83%;
   }
 
   .card.student-data h3 {
@@ -656,7 +674,11 @@ button:active {
   }
 
   .card.no-result .icon-large {
-    font-size: 45px;
+    font-size: 40px;
+  }
+
+  .card.no-result {
+    max-width: 72%;
   }
 
   .card.no-result h3 {
@@ -667,12 +689,25 @@ button:active {
     font-size: 14px;
   }
 
-  .card.about-card,
-  .card.contact-card {
-    padding: 30px 20px;
+  .toast {
+    max-width: 70%;
+    padding: 15px;
+    font-size: 15px;
+    justify-content: center;
+
   }
 
-  .card.about-card h2,
+  .card.about-card {
+    max-width: 100%;
+  }
+  .card.contact-card {
+    padding: 30px 20px;
+    max-width: 75%;
+  }
+
+  .card.about-card h2 {
+    font-size: 24px;
+  }
   .card.contact-card h2 {
     font-size: 24px;
   }
