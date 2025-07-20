@@ -33,18 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
       assignments: [true, false, true, false, true, false],
       certificate: null
     },
-    "vcrandomid123": {
-      name: "Alice Smith",
-      email: "alice@example.com",
-      mobile: "5551234567",
-      domain: "Cybersecurity",
-      college: "National Cyber Academy",
-      start: "10 July 2024",
-      duration: "3 Months",
-      photo: "https://images.unsplash.com/photo-1638803040283-7a-5ffd48dad5?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      assignments: [true, true, true],
-      certificate: "https://www.google.com/search?q=VaultofCodes+certificate+alice+smith"
-    },
     "nonexistent@email.com": null
   };
 
